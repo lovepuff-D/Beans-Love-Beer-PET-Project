@@ -5,15 +5,15 @@ import {createRouter, createWebHistory} from "vue-router"
 
 const routes = [
     {
-        path: '/Beans-Love-Beer-PET-Project/',
+        path: '/',
         component: HomePage,
     },
     {
-        path: '/Beans-Love-Beer-PET-Project/favorite',
+        path: '/favorite',
         component: FavoritePage,
     },
     {
-        path: '/Beans-Love-Beer-PET-Project/:id',
+        path: '/:id',
         component: ItemPage,
     },
 ]

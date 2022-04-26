@@ -12,7 +12,7 @@
 					>
 						Favorite
 					</button>
-					<button @click="$router.push(`/Beans-Love-Beer-PET-Project/${item.id}`)"
+					<button @click="$router.push(`/${item.id}`)"
 							:item="item"
 					>
 						More info...

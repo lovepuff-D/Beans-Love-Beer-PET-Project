@@ -8,6 +8,7 @@
 			></Item>
 		</div>
 	</section>
+	<h2 v-if="items.length === 0" style="text-align: center">Список пуст</h2>
 </template>
 
 <script>

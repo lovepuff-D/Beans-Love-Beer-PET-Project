@@ -2,8 +2,8 @@
 	<header>
 		<h1>Beans Love Beers</h1>
 		<nav>
-			<button @click="$router.push('/Beans-Love-Beer-PET-Project')">Main</button>
-			<button @click="$router.push('/Beans-Love-Beer-PET-Project/favorite')">Favorite</button>
+			<button @click="$router.push('/')">Main</button>
+			<button @click="$router.push('/favorite')">Favorite</button>
 		</nav>
 	</header>
 </template>
