@@ -1,0 +1,20 @@
+2. Update router paths to include the repository name.
+The routes variable should look similar to the following:
+const routes = [
+  {
+    path: '/',
+    redirect: { name: 'Home' }
+  },
+  {
+    path: '/<REPO-NAME>/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/<REPO-NAME>/:queryParams(.*)',
+    name: 'Result',
+    component: Result,
+    props: true
+  }
+
+
